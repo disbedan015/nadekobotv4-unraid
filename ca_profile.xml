@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://avatars.githubusercontent.com/u/5659944?v=4</Icon>
+  <Profile>
+    Created Docker image as I didn't see an updated one for an app and I may start doing that for other apps I use 
+  </Profile>
+  <DonateLink>https://nadekobot.readthedocs.io/en/v4/donate/</DonateLink>
+  <DonateText>Donation link is for the origial other of the software</DonateText>
+</Maintainer>
