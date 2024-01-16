@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-  <Icon>https://github.com/disbedan015/nadekobotv4-unraid/blob/main/DAB-500.png</Icon>
+  <Icon>https://github.com/disbedan015/NadekoBotv4-Docker/blob/master/DAB-500.png</Icon>
   <Profile>
     Created Docker image as I didn't see an updated one for an app and I may start doing that for other apps I use 
   </Profile>
