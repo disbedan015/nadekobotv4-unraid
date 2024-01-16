@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>nadekobotv4</Name>
+  <Repository>disbedan015/nadekobotv4</Repository>
+  <Registry>https://hub.docker.com/r/disbedan015/nadekobotv4/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/151309-suppport-nadekobotv4-docker/</Support>
+  <Project>https://gitlab.com/Kwoth/nadekobot</Project>
+  <Overview>I couldn't find any v4 version of the Nadekobot docker images so I decided to make one.&#xD;
+&#xD;
+added variables and path for unraid&#xD;
+&#xD;
+will take a couple minutes on first start. &#xD;
+&#xD;
+https://hub.docker.com/r/disbedan015/nadekobotv4/&#xD;
+&#xD;
+Important to read the https://nadekobot.readthedocs.io/en/v4/creds-guide/ as this will not start without a discord bot token and will not work correctly with an owner ID. Everything else can be left set as is or filled in.</Overview>
+  <Category>Tools:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://gitlab.com/uploads/-/system/project/avatar/9321079/nadeko_pfp.jpg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1705365397</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Discord Bot Token" Target="DISCORDTOKEN" Default="" Mode="" Description="Discord bot token is required" Type="Variable" Display="always" Required="true" Mask="true">
+  <Config Name="Discord Owner ID" Target="OWNERID" Default="" Mode="" Description="This Docker only allows 1 owner ID" Type="Variable" Display="always" Required="true" Mask="true">
+  <Config Name="Google API Key" Target="GOOGLEAPI" Default="" Mode="" Description="Needed for youtube playback and search" Type="Variable" Display="always" Required="false" Mask="false">
+  <Config Name="Discord Vote URL" Target="DISCORDURL" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="Top GG key" Target="TOPGGKEY" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Top GG Vote URL" Target="TOPGGURL" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
+  <Config Name="Discord Vote Key" Target="DISCORDVOTEKEY" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Patreon Client ID" Target="PATREONCLIENTID" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Patreon Refresh Token" Target="PATREONREFRESHTOKEN" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Patreon Client Secret" Target="PATREONCLIENTSECRET" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Patreon Campaign ID" Target="PATREONCAMPAIGNID" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Discord Bot List Key" Target="DISCORDBOTLIST" Default="" Mode="rw" Description="" Type="Path" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Rapid API key" Target="RAPIDAPIKEY" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Location IQ API Key" Target="LOCATIONIQKEY" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Timezone API key" Target="TIMEZONEKEY" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="OSU API key" Target="OSUKEY" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Trovo Client ID" Target="TROVOCLIENTID" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Database" Target="/db/" Default="/mnt/user/appdata/nadekobotv4/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/nadekobotv4/</Config>
+  <Config Name="Twitch Secret ID" Target="TWITCHSECRET" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true">
+  <Config Name="Twitch Client ID" Target="TWITCHCLIENTID" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true">
+  <Config Name="Coin Market API Key" Target="COINMARKETKEY" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Chat GPT 3 key" Target="GPT3KEY" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Cleverbot API Key" Target="CLEVERBOTAPI" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
+  <Config Name="Redis Location" Target="REDISOPT" Default="localhost:6379,syncTimeout=30000,responseTimeout=30000,allowAdmin=true,password=" Mode="" Description="optional this dockers has it or you can use an external" Type="Variable" Display="advanced-hide" Required="false" Mask="false">localhost:6379,syncTimeout=30000,responseTimeout=30000,allowAdmin=true,password=</Config>
+  <Config Name="Data cache location" Target="CACHE" Default="Redis" Mode="" Description="memory or redis" Type="Variable" Display="advanced-hide" Required="true" Mask="false">Redis</Config>
+  <Config Name="Shard Coordinator URL" Target="SHARDCORDURL" Default="http://localhost:3442" Mode="" Description="If using multiple shards put the url for coordinator" Type="Variable" Display="advanced-hide" Required="true" Mask="false">http://localhost:3442</Config>
+  <Config Name="Number of Shards" Target="SHARDS" Default="1" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">1</Config>
+</Container>
