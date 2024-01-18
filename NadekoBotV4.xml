@@ -31,7 +31,8 @@ Important to read the https://nadekobot.readthedocs.io/en/v4/creds-guide/ as thi
   <Requires/>
   <Config Name="Discord Bot Token" Target="DISCORDTOKEN" Default="" Mode="" Description="Discord bot token is required" Type="Variable" Display="always" Required="true" Mask="true">
   <Config Name="Discord Owner ID" Target="OWNERID" Default="" Mode="" Description="This Docker only allows 1 owner ID" Type="Variable" Display="always" Required="true" Mask="true">
-  <Config Name="Google API Key" Target="GOOGLEAPI" Default="" Mode="" Description="Needed for youtube playback and search" Type="Variable" Display="always" Required="false" Mask="false">
+  <Config Name="Install Local Redis" Target="LOCALREDIS" Default="true" Mode="" Description="true or false" Type="Variable" Display="always" Required="true" Mask="false">"true"</Config>
+  <Config Name="Google API Key" Target="GOOGLEAPI" Default="" Mode="" Description="Needed for youtube playback and search" Type="Variable" Display="always" Required="false" Mask="true">
   <Config Name="Discord Vote URL" Target="DISCORDURL" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
   <Config Name="Top GG key" Target="TOPGGKEY" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
   <Config Name="Top GG Vote URL" Target="TOPGGURL" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="false"/>
