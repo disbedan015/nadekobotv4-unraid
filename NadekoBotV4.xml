@@ -3,8 +3,7 @@
   <Name>nadekobotv4</Name>
   <Repository>disbedan015/nadekobotv4</Repository>
   <Registry>https://hub.docker.com/r/disbedan015/nadekobotv4/</Registry>
-  <Network>br0.233</Network>
-  <MyIP>192.168.233.36</MyIP>
+  <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/151309-suppport-nadekobotv4-docker/</Support>
