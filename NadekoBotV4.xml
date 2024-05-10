@@ -47,7 +47,7 @@
   <Config Name="Timezone API key" Target="TIMEZONEKEY" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
   <Config Name="OSU API key" Target="OSUKEY" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
   <Config Name="Trovo Client ID" Target="TROVOCLIENTID" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
-  <Config Name="Local Database" Target="/nadeko/data/" Default="/mnt/user/appdata/nadekobotv4/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/nadekobotv4/</Config>
+  <Config Name="DB location" Target="/nadeko/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/nadekobotv4/</Config>
   <Config Name="Twitch Secret ID" Target="TWITCHSECRET" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"></Config>
   <Config Name="Twitch Client ID" Target="TWITCHCLIENTID" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"></Config>
   <Config Name="Coin Market API Key" Target="COINMARKETKEY" Default="" Mode="" Description="" Type="Variable" Display="always-hide" Required="false" Mask="true"/>
