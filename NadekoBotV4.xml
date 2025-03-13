@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<Container version="2">
-  <Name>nadekobotv4</Name>
+<Container version="3">
+  <Name>nadekobotv5.39</Name>
   <Repository>disbedan015/nadekobotv4</Repository>
   <Registry>https://hub.docker.com/r/disbedan015/nadekobotv4/</Registry>
   <Network>bridge</Network>
@@ -9,6 +9,8 @@
   <Support>https://forums.unraid.net/topic/151309-suppport-nadekobotv4-docker/</Support>
   <Project>https://gitlab.com/Kwoth/nadekobot</Project>
   <Overview>
+    No longer Supported there is an offical docker version for v6 of Nadeko Bot I'll try to make an image for unraid when I get a minute. Last version 5.3.9.&#xD;
+    &#xD;
     I couldn't find any v4 version of the Nadekobot docker images so I decided to make one.&#xD;
     &#xD;
     added variables and path for unraid&#xD;
